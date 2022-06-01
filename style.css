@@ -1,0 +1,106 @@
+/* Body */
+.body-bg {
+  background-color: black;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #5454D4;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+  --bs-navbar-brand-hover-color: '';
+}
+
+.footer-brand {
+  font-family: Montserrat;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+  --bs-navbar-brand-hover-color: '';
+}
+
+.nav-link {
+}
+
+/* Utility */
+.title-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 2rem;
+}
+
+.title-content-section {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 2rem;
+}
+
+.btn-bd-primary {
+  color: white;
+  background-color: #5454D4;
+  border-radius: 0.5rem;
+}
+
+.section {
+  padding: 3rem 0 3rem 0;
+}
+
+.content-services {
+  margin: auto;
+  width: 50%;
+}
+
+/* Image */
+.img-home {
+  width: inherit;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+  .navbar {
+    background-color: black;
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .footer-brand {
+    color: white;
+  }
+
+  .nav-link {
+    color: white;
+    margin-right: 20px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+  }
+
+  .title-content {
+    font-size: 80px;
+    line-height: 84px;
+  }
+
+  .title-content-section {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
